@@ -61,7 +61,6 @@ public class UserService {
         return UserMapper.INSTANCE.toDto(user);
     }
 
-
     public void updateUserImage(MultipartFile avatar,
                                  Authentication authentication) throws IOException {
         User user = getUserByUsername(authentication.getName());

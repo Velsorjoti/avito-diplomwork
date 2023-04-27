@@ -102,5 +102,4 @@ public class UserController {
     public byte[] getAvatar(@PathVariable("id") Integer id) {
         return imageService.getImageById(id).getData();
     }
-
 }

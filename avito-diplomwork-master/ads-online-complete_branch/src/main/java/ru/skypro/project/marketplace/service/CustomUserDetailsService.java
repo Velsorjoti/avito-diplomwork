@@ -49,5 +49,4 @@ public class CustomUserDetailsService implements UserDetailsService {
         user.setEnabled(true);
         userRepository.save(user);
     }
-
 }

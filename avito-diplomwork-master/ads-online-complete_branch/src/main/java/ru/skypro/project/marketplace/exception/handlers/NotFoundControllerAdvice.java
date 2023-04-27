@@ -13,5 +13,4 @@ public class NotFoundControllerAdvice {
     public ResponseEntity<?> notFoundObject(){
         return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
     }
-
 }

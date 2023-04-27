@@ -7,3 +7,4 @@ import ru.skypro.project.marketplace.model.Image;
 @Repository
 public interface ImageRepository extends JpaRepository<Image, Integer> {
 }
+

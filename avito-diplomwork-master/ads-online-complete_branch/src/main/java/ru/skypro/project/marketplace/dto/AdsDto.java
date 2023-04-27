@@ -5,7 +5,6 @@ import lombok.Data;
 
 @Data
 public class AdsDto {
-
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private Integer author;
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
@@ -16,5 +15,4 @@ public class AdsDto {
     private String title;
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     private String description;
-
 }

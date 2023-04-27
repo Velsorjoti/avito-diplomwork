@@ -42,5 +42,4 @@ public class ImageService {
         log.debug("Getting image with id: {}", id);
         return imageRepository.findById(id).orElseThrow(ObjectNotFoundExeption::new);
     }
-
 }
