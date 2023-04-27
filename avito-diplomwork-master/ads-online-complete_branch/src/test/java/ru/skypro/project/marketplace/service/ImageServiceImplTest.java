@@ -32,5 +32,4 @@ public class ImageServiceImplTest {
         verify(imageRepository, only()).delete(image);
         verifyNoMoreInteractions(imageRepository);
     }
-
 }

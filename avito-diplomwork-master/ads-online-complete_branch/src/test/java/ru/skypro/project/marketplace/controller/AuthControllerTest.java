@@ -87,5 +87,4 @@ public class AuthControllerTest {
 
         userRepository.delete(savedUser);
     }
-
 }

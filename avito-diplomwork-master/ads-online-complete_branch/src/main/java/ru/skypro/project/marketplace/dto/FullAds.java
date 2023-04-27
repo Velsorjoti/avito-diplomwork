@@ -4,7 +4,6 @@ import lombok.Data;
 
 @Data
 public class FullAds {
-
     private Integer pk;
     private String authorLastName;
     private String authorFirstName;
@@ -14,5 +13,4 @@ public class FullAds {
     private String phone;
     private int price;
     private String title;
-
 }

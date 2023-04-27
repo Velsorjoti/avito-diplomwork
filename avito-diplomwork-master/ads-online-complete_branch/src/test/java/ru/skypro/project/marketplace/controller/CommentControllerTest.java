@@ -140,5 +140,4 @@ public class CommentControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.text").value(comment.getText()));
     }
-
 }

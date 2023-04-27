@@ -5,7 +5,6 @@ import ru.skypro.project.marketplace.enums.Role;
 
 @Data
 public class RegisterReq {
-
     private String username;
     private String password;
     private String firstName;

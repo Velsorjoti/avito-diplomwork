@@ -84,5 +84,4 @@ public class CommentController {
                                                         @RequestBody AdsCommentDto adsCommentDto) {
         return ResponseEntity.ok(commentService.updateComments(adId, commentId, adsCommentDto));
     }
-
 }

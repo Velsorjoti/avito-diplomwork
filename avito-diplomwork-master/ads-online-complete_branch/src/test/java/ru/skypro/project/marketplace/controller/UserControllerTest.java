@@ -140,5 +140,4 @@ public class UserControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().bytes(image.getData()));
     }
-
 }

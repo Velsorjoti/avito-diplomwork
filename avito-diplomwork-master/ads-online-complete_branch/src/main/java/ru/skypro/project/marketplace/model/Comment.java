@@ -25,5 +25,4 @@ public class Comment {
     private Ads ads;
     @ManyToOne(fetch = FetchType.LAZY)
     private User author;
-
 }

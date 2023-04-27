@@ -54,5 +54,4 @@ public class WebSecurityConfig extends GlobalMethodSecurityConfiguration {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-
 }

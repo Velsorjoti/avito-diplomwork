@@ -82,5 +82,4 @@ public class CommentService {
         log.debug("Getting comment with id: {}", id);
         return commentRepository.findById(id).orElseThrow(ObjectNotFoundExeption::new);
     }
-
 }

@@ -40,5 +40,4 @@ public class AuthService {
         log.info("User {} registered successfully", registerReq.getUsername());
         return true;
     }
-
 }

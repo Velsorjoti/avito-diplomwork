@@ -13,5 +13,4 @@ public class BadForbiddenControllerAdvice {
     public ResponseEntity<?> badResponce() {
         return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
     }
-
 }

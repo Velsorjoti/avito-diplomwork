@@ -192,6 +192,4 @@ public class AdsControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().bytes(image.getData()));
     }
-
-
 }

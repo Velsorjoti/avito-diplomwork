@@ -10,5 +10,4 @@ public class BadRequestControllerAdvice {
     public ResponseEntity<?> incorrectArgument() {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
     }
-
 }

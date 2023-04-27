@@ -112,6 +112,5 @@ public class AdsService {
         log.debug("Finding ads by id: {}", id);
         return adsRepository.findById(id).orElseThrow(ObjectNotFoundExeption::new);
     }
-
 }
 

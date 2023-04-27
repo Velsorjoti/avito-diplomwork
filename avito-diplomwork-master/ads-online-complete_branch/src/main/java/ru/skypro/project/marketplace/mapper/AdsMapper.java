@@ -42,5 +42,4 @@ public interface AdsMapper {
         }
         return ADS_IMAGE + image.getId();
     }
-
 }

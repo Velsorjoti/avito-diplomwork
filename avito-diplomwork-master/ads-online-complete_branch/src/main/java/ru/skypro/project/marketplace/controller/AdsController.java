@@ -158,5 +158,4 @@ public class AdsController {
     public byte[] getImage(@PathVariable("id") Integer id) {
         return imageService.getImageById(id).getData();
     }
-
 }

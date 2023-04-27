@@ -29,5 +29,4 @@ public class Ads {
     @JsonIgnore
     @OneToMany(mappedBy = "ads", cascade = CascadeType.ALL)
     private List<Comment> comments;
-
 }

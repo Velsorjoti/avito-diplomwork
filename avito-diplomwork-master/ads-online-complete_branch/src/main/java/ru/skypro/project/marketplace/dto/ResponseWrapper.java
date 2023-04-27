@@ -6,7 +6,6 @@ import java.util.Collection;
 
 @Data
 public class ResponseWrapper<T> {
-
     private int count;
     private Collection<T> results;
 
@@ -19,5 +18,4 @@ public class ResponseWrapper<T> {
         responseWrapper.count = results.size();
         return responseWrapper;
     }
-
 }

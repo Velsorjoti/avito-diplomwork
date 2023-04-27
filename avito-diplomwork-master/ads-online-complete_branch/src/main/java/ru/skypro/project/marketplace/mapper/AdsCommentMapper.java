@@ -35,5 +35,4 @@ public interface AdsCommentMapper {
         }
         return USER_IMAGE + image.getId();
     }
-
 }

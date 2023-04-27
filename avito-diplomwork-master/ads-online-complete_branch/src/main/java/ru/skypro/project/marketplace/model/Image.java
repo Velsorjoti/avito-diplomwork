@@ -20,5 +20,4 @@ public class Image {
     @Lob
     @Type(type="org.hibernate.type.BinaryType")
     private byte[] data;
-
 }

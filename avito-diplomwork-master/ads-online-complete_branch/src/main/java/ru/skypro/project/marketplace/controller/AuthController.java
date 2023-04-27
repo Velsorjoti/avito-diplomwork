@@ -53,5 +53,4 @@ public class AuthController {
     public ResponseEntity<?> register(@RequestBody RegisterReq req) {
         return ResponseEntity.ok(authService.register(req));
     }
-
 }
